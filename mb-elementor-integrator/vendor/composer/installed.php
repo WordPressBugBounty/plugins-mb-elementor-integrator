@@ -1,19 +1,19 @@
 <?php return array(
     'root' => array(
         'name' => 'wpmetabox/mb-elementor-integrator',
-        'pretty_version' => '2.1.13',
-        'version' => '2.1.13.0',
-        'reference' => '0a2b792775ee2bf63102420d35dbbfea04fdacc9',
+        'pretty_version' => '2.2.0',
+        'version' => '2.2.0.0',
+        'reference' => '8a21f916743d08db4d47fe81b673c31b6f23b01b',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'dev' => true,
+        'dev' => false,
     ),
     'versions' => array(
         'wpmetabox/mb-elementor-integrator' => array(
-            'pretty_version' => '2.1.13',
-            'version' => '2.1.13.0',
-            'reference' => '0a2b792775ee2bf63102420d35dbbfea04fdacc9',
+            'pretty_version' => '2.2.0',
+            'version' => '2.2.0.0',
+            'reference' => '8a21f916743d08db4d47fe81b673c31b6f23b01b',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
