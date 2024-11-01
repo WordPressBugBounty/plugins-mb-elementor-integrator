@@ -1,3 +1,6 @@
 <?php
-echo sprintf( '<a href="%s">%s</a>', $data, $data ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+if ( ! defined( 'ABSPATH' ) ) {
+	return;
+}
 
+printf( '<a href="%s">%s</a>', esc_url( $data ), esc_html( $data ) );

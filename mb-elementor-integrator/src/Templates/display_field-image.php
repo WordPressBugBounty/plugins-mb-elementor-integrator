@@ -1,4 +1,8 @@
 <?php
+if ( ! defined( 'ABSPATH' ) ) {
+	return;
+}
+
 use MBEI\GroupField;
 
 if ( true === $return ) {
@@ -6,4 +10,3 @@ if ( true === $return ) {
 } else {
 	echo wp_get_attachment_image( $data, 'full' );
 }
-

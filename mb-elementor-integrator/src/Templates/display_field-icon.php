@@ -1,2 +1,6 @@
 <?php
-echo $this->display_icon( $data, $field ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+if ( ! defined( 'ABSPATH' ) ) {
+	return;
+}
+
+echo wp_kses_post( $this->display_icon( $data, $field ) );
