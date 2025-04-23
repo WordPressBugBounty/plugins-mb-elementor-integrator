@@ -4,8 +4,8 @@ Donate link: https://metabox.io/pricing/
 Tags: meta box, custom fields, elementor, dynamic tags
 Requires at least: 5.9
 Requires PHP: 7.0
-Tested up to: 6.7.1
-Stable tag: 2.2.3
+Tested up to: 6.8
+Stable tag: 2.2.4
 License: GPLv2 or later
 
 Integrates Meta Box's custom fields with Elementor page builder via dynamic tags.
@@ -13,6 +13,9 @@ Integrates Meta Box's custom fields with Elementor page builder via dynamic tags
 == Description ==
 
 Easily select and show custom fields created by [Meta Box](https://metabox.io) in the Elementor page builder via dynamic tags (Pro version).
+
+> **Meta Box Lite**
+> We recommend using [Meta Box Lite](https://metabox.io/lite/), a feature-rich free UI version of Meta Box that provides UI and all free features for managing custom fields and dynamic content on WordPress, including post types, taxonomies, custom fields, and relationships.
 
 The plugin works for all field types. And you don't have to remember the field name or field ID to type. You just need to select it from the dropdown list.
 
@@ -31,20 +34,20 @@ https://www.youtube.com/watch?v=NzR9lii2S30&rel=0
 If you like this plugin, you might also like our other WordPress products:
 
 - [Slim SEO](https://wpslimseo.com) - A fast, lightweight and full-featured SEO plugin for WordPress with minimal configuration.
-- [Slim SEO Schema](https://wpslimseo.com/products/slim-seo-schema/) - An advanced, powerful and flexible plugin to add schemas to WordPress.
-- [Slim SEO Link Manager](https://wpslimseo.com/products/slim-seo-link-manager/) - Build internal link easier in WordPress with real-time reports.
-- [GretaThemes](https://gretathemes.com) - Free and premium WordPress themes that clean, simple and just work.
+- [Falcon](https://wordpress.org/plugins/falcon/) - WordPress optimizations & tweaks.
 - [Auto Listings](https://wpautolistings.com) - A car sale and dealership plugin for WordPress.
 
 == Installation ==
 
-You need to install [Meta Box](https://metabox.io) plugin first
+We recommend using [Meta Box Lite](https://metabox.io/lite/), a feature-rich free UI version of Meta Box that provides UI and all free features for managing custom fields and dynamic content on WordPress, including post types, taxonomies, custom fields, and relationships.
+
+If you prefer installing individually, you need to install [Meta Box](https://metabox.io) first:
 
 - Go to Plugins | Add New and search for "Meta Box"
 - Click **Install Now** button to install the plugin
 - After installing, click **Activate Plugin** to activate the plugin
 
-Install **MB Elementor Integration** extension
+Then install **MB Elementor Integration** extension
 
 - Go to **Plugins | Add New** and search for **MB Elementor Integration**
 - Click **Install Now** button to install the plugin
@@ -58,10 +61,13 @@ Install **MB Elementor Integration** extension
 
 == Changelog ==
 
+= 2.2.4 - 2025-04-23 =
+Fix cloneable group issue with special characters
+
 = 2.2.3 - 2025-02-04 =
 Fix not render HTML tags in subfield WYSIWYG
 
-= 2.2.2 - 2024-11-01
+= 2.2.2 - 2024-11-01 =
 - Fix direct file access
 - Escape values when outputting
 
